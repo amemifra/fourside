@@ -1,0 +1,25 @@
+<Sidenav />
+<main>
+  <svelte:component this="{Router}"/>
+</main>
+
+<script>
+  import Sidenav from './components/Sidenav.html';
+  import Homepage from './pages/Homepage.html';
+
+  export default {
+    components: {
+      Sidenav: './components/Sidenav.html'
+    },
+    computed: {
+      Router: ({ $page }) => {
+        switch($page) {
+          case 'homepage':
+            return Homepage;
+          default:
+           return Notfound;
+        }
+      }
+    }
+  }
+</script>
