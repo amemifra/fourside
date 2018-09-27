@@ -2,7 +2,7 @@ html, body {
 	position: relative;
 	width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 body {
@@ -121,7 +121,7 @@ button:focus {
 
 #nwa {
 	display: grid;
-  grid-template-columns: 10rem auto;
+  grid-template-columns: 8rem auto;
   height: 100%;
 }
 
@@ -154,15 +154,45 @@ button:focus {
 }
 
 h1 {
+  font-family: Metropolis Light;
   color: #E9ECEF;
+  font-size: 32px;
+  letter-spacing: normal;
 }
 
 h2 {
-  color: #8F9BA3;
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 28px;
+  letter-spacing: normal;
 }
 
 h3 {
-  color: #ADBBC4;
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 22px;
+  letter-spacing: normal;
+}
+
+h4 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 18px;
+  letter-spacing: normal;
+}
+
+h5 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 16px;
+  letter-spacing: normal;
+}
+
+h6 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 14px;
+  letter-spacing: normal;
 }
 
 p {
@@ -187,9 +217,10 @@ button {
   font-size: .5rem;
   font-weight: 500;
   height: 1.5rem;
-  padding: 0 .5rem;
+  padding: 0 .63rem;
   background-color: transparent;
   margin: .25rem .5rem .25rem 0;
+  border-radius: 2rem;
 }
 
 button.primary {
@@ -204,8 +235,8 @@ button.primary:hover {
 }
 
 button:focus {
-  outline: dotted 1px;
-  outline: -webkit-focus-ring-color auto 5px;
+  outline: dotted 0px;
+  outline: -webkit-focus-ring-color auto 0px;
 }
 
 button.primary:active {
